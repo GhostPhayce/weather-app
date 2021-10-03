@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../styles/App.css";
 import LocationDetails from "./LocationDetails";
 import ForecastSummaries from "./ForecastSummaries";
+import "../styles/App.css";
 
 const App = ({ location, forecasts }) => (
-  <div className="forecast">
+  <div className="weather-app">
     <LocationDetails city={location.city} country={location.country} />
 
     <ForecastSummaries forecasts={forecasts} />
