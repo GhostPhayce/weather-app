@@ -1,0 +1,26 @@
+.forecast-summary {
+  margin-top: 1rem;
+  background: #f4f4f4;
+  padding: 4rem;
+  border-radius: 15px;
+  text-align: center;
+}
+.forecast-summary__date {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+.forecast-summary__icon {
+  font-size: 4rem;
+}
+.forecast-summary__temperature {
+  font-weight: bold;
+}
+.forecast-summary__description {
+  font-weight: bold;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.3rem 1rem;
+  font-weight: bold;
+}
