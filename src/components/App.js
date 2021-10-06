@@ -6,12 +6,21 @@ import "../styles/App.css";
 
 const App = ({ location, forecasts }) => {
   const [selectedDate, setSelectedDate] = useState(forecasts[0].date);
-  const selectedForecast = forecasts.find(forecast => forecast.date === selectedDate);
+  const selectedForecast = forecasts.find(
+    (forecast) => forecast.date === selectedDate
+  );
+
+  const handleForecastSelect = (date) => {
+    setSelectedDate(date);
+  };
 
   return (
     <div className="weather-app">
       <LocationDetails city={location.city} country={location.country} />
-      <ForecastSummaries forecasts={forecasts} />
+      <ForecastSummaries
+        forecasts={forecasts}
+        onForecastSelect={handleForecastSelect}
+      />
       <ForecastDetails forecast={selectedForecast} />
     </div>
   );
