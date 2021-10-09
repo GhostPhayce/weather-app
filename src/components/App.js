@@ -36,15 +36,15 @@ const App = () => {
 
   return (
     <div className="weather-app">
-      <SearchForm
-        searchText={searchText}
-        setSearchText={setSearchText}
-        onSubmit={handleCitySearch}
-      />
       <LocationDetails
         city={location.city}
         country={location.country}
         errorMessage={errorMessage}
+      />
+      <SearchForm
+        searchText={searchText}
+        setSearchText={setSearchText}
+        onSubmit={handleCitySearch}
       />
       {!errorMessage && (
         <>

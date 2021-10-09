@@ -1,6 +1,6 @@
 .forecast-summary {
   margin-top: 1rem;
-  background: #f4f4f4;
+  background: rgba(255, 255, 255, 0.8);
   padding: 4rem;
   border-radius: 15px;
   text-align: center;
@@ -19,8 +19,12 @@
 .forecast-summary__description {
   font-weight: bold;
 }
-button {
-  margin-top: 1rem;
-  padding: 0.3rem 1rem;
+.forecast-summary button {
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
   font-weight: bold;
+}
+.forecast-summary button:hover {
+  background: #fbb730;
 }

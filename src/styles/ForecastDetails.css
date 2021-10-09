@@ -1,11 +1,14 @@
 .forecast-details {
-  padding: 2rem;
-  margin-top: 2rem;
+  padding: 2rem 6rem;
+  margin: 2rem auto;
   text-align: center;
-}
-.forecast-details div {
-  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  width: fit-content;
 }
 .forecast-details__date {
   font-size: 2rem;
+}
+.forecast-details div {
+  margin-bottom: 1rem;
 }
