@@ -3,7 +3,9 @@
   margin-top: 2rem;
   text-align: center;
 }
-
+.forecast-details div {
+  margin-top: 1rem;
+}
 .forecast-details__date {
   font-size: 2rem;
 }
