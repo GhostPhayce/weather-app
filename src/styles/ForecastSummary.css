@@ -1,9 +1,14 @@
 .forecast-summary {
   margin-top: 1rem;
-  background: rgba(255, 255, 255, 0.8);
   padding: 4rem;
-  border-radius: 15px;
   text-align: center;
+  color: #fff;
+  margin: 40px;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
 }
 .forecast-summary__date {
   font-weight: bold;
@@ -20,11 +25,21 @@
   font-weight: bold;
 }
 .forecast-summary button {
-  font-size: 1rem;
+  display: inline-block;
   margin-top: 2rem;
-  padding: 0.5rem 2rem;
-  font-weight: bold;
+  padding: 1.3rem 2rem;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 .forecast-summary button:hover {
-  background: #fbb730;
+  background-color: rgba(255, 255, 255, 0.2);
 }
