@@ -5,12 +5,20 @@ import "../styles/SearchForm.css";
 const SearchForm = ({ searchText, setSearchText, onSubmit }) => {
   const handleInputChange = (event) => setSearchText(event.target.value);
 
+  const handleEnter = (event) => {
+    if (event.key === "Enter") {
+      return onSubmit();
+    }
+    return null;
+  };
+
   return (
     <div className="search-form">
       <input
         className="search-form__input"
         type="text"
         onChange={handleInputChange}
+        onKeyPress={handleEnter}
         value={searchText}
       />
       <button className="search-form__search" type="submit" onClick={onSubmit}>
