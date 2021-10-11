@@ -14,9 +14,6 @@
     "react-icons-weather": "^1.0.5",
     "react-scripts": "^4.0.3",
     "web-vitals": "^1.1.2",
-    "npm i fsevents@latest -f --save-optional"
-
-
   },
   "scripts": {
     "start": "react-scripts start",
