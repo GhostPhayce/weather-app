@@ -1,8 +1,9 @@
 .forecast-summaries {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1550px) {
   .forecast-summaries {
     flex-direction: column;
   }

@@ -1,9 +1,12 @@
 .forecast-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 1rem;
   padding: 4rem;
   text-align: center;
   color: #fff;
-  margin: 40px;
   background-color: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
   width: 100%;

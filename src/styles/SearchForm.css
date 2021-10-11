@@ -10,13 +10,33 @@
   font-size: 2rem;
   letter-spacing: 1px;
   padding: 0 1rem;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.33);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(2px);
+}
+.search-form__input:focus {
+  background-color: rgba(255, 255, 255, 0.44);
+  outline: none;
 }
 .search-form__search {
-  height: 3rem;
-  padding: 0 3rem;
-  font-size: 1rem;
   margin-left: 2rem;
+  padding: 0 2rem;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.33);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 .search-form__search:hover {
-  background: #fbb730;
+  background-color: rgba(255, 255, 255, 0.44);
 }
