@@ -23,7 +23,7 @@
 
 This was created as part of an introduction to React as part of a bootcamp with Manchester Codes.
 
-<a href="https://ghostphayce-weather-app.herokuapp.com/" src="http://ghostphayce.tv/wp-content/uploads/2021/10/weather-app.png" alt="screenshot" border="0"></a>
+<a href="https://ghostphayce-weather-app.herokuapp.com/"><img src="http://ghostphayce.tv/wp-content/uploads/2021/10/weather-app.png" alt="screenshot" border="0"></a>
 
 ## Install
 
